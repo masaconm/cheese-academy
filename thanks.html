@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>チーズ職人養成学校「チーズアカデミーTOKYO」</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  
+  <!-- Nav -->
+  <header class="c-header c-hamburger-menu"> <img class="c-header__logo" src="images/header_logo_fff.png" alt="logo"> 
+    <!-- idはlabelのforと同じにする -->
+    <input type="checkbox" name="hamburger" id="hamburger" class="c-hamburger-menu__input"/>
+    <!-- ハンバーガーメニュを開いた時の背景 -->
+    <label for="hamburger" class="c-hamburger-menu__bg"></label>
+    <ul class="c-header__list c-hamburger-menu__list">
+      <li class="c-header__list-item"> <a href="index.html#top" class="c-header__list-link">TOP</a> </li>
+      <li class="c-header__list-item"> <a href="index.html#about" class="c-header__list-link">About</a> </li>
+      <li class="c-header__list-item"> <a href="index.html#course" class="c-header__list-link">Course</a> </li>
+      <li class="c-header__list-item"> <a href="index.html#news" class="c-header__list-link">News</a> </li>
+      <li class="c-header__list-item"> <a href="index.html#access" class="c-header__list-link">Access</a> </li>
+      <li class="c-header__list-item"> <a href="index.html#contact" class="c-header__list-link">Contact</a> </li>
+    </ul>
+	<!-- ハンバーガーメニューのボタン -->
+  <label for="hamburger" class="c-hamburger-menu__button">
+    <span class="c-hamburger-menu__button-mark"></span>
+    <span class="c-hamburger-menu__button-mark"></span>
+    <span class="c-hamburger-menu__button-mark"></span>
+  </label>
+
+  </header>
+  <a href="#top" id="topButton" style="display: none;">TOP</a> 
+  
+  <!-- Hero Section -->
+  <section class="hero-thanks" id="hero">
+    <div class="tagline-thanks-wrapper fade-in-element">
+      <div>
+        <h1 class="thanks">お問い合わせありがとうございました！</h1>
+        <img class="cheese-sun" src="images/cheese-kun.png" alt="チーズくん"> </div>
+    </div>
+  </section>
+  
+  <!-- footer Section -->
+  <footer class="thanks-footer">
+    <div class="copyright-thanks">&copy;2024 <strong>Cheese Academy Tokyo All Right Reserved.</strong></div>
+  </footer>
+  <!-- Main Container Ends --> 
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
